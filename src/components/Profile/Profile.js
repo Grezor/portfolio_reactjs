@@ -1,6 +1,7 @@
 import React from 'react'
 import {Typography} from '@material-ui/core'
 import './Profile.css'
+import CustomTimeline from '../Timeline/Timeline'
 import Background from '../../assets/images/profile.jpg';
 
 const Profile = () => {
@@ -15,7 +16,7 @@ const Profile = () => {
       </figure>
 
       <div className="profile_information">
-        Timeline
+        <CustomTimeline></CustomTimeline>
         <br />
         <button>My button</button>
       </div>
