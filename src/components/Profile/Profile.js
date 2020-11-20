@@ -16,7 +16,7 @@ const Profile = () => {
       </figure>
 
       <div className="profile_information">
-        <CustomTimeline></CustomTimeline>
+        <CustomTimeline />
         <br />
         <button>My button</button>
       </div>
